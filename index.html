@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="categories">
+                <button type="button" data-filter="all">Todas</button>
+                <button type="button" data-toggle=".sencilla">Sencillas</button>
+                <button type="button" data-toggle=".oscuridad">Oscuridad</button>
+                <button type="button" data-toggle=".luz">Luz</button>
+                <button type="button" data-toggle=".fuerza">Fuerza</button>
+                <button type="button" data-toggle=".otra">Otras</button>
+            </div>
+            <div class="sort">
+                <button type="button" data-sort="default:asc">Orden original</button>
+                <button type="button" data-sort="category:asc">Categoría A-Z</button>
+                <button type="button" data-sort="category:desc">Categoría Z-A</button>
+            </div>
+        </nav>
+
+        <div class="keyblade-list">
+            <div class="card mix sencilla" data-category="sencilla">
+                <h3>Kingdom Key</h3>
+                <img src="img/Kingdom_Key_KH.webp" alt="🗝️">
+                <p>Sencilla</p>
+            </div>
+            <div class="card mix luz" data-category="luz">
+                <h3>Oathkeeper</h3>
+                <img src="img/Oathkeeper_KH.webp" alt="🗝️">
+                <p>Luz</p>
+            </div>
+            <div class="card mix oscuridad" data-category="oscuridad">
+                <h3>Oblivion</h3>
+                <img src="img/Oblivion_KH.webp" alt="🗝️">
+                <p>Oscuridad</p>
+            </div>
+            <div class="card mix luz" data-category="luz">
+                <h3>Ultima Weapon</h3>
+                <img src="img/Ultima_Weapon_KH.webp" alt="🗝️">
+                <p>Luz</p>
+            </div>
+            <div class="card mix sencilla" data-category="sencilla">
+                <h3>Kingdom Key D</h3>
+                <img src="img/Kingdom_Key_D_KH.webp" alt="🗝️">
+                <p>Sencilla</p>
+            </div>
+            <div class="card mix oscuridad" data-category="oscuridad">
+                <h3>Keyblade of Heart</h3>
+                <img src="img/Keyblade_of_Hearts_KH.webp" alt="🗝️">
+                <p>Oscuridad</p>
+            </div>
+            <div class="card mix otra" data-category="otra">
+                <h3>Lady Luck</h3>
+                <img src="img/Lady_Luck_KH.webp" alt="🗝️">
+                <p>Otra</p>
+            </div>
+            <div class="card mix fuerza" data-category="fuerza">
+                <h3>Olympia</h3>
+                <img src="img/Olympia_KH.webp" alt="🗝️">
+                <p>Fuerza</p>
+            </div>
+            <div class="card mix fuerza" data-category="fuerza">
+                <h3>Jungle King</h3>
+                <img src="img/Jungle_King_KH.webp" alt="🗝️">
+                <p>Fuerza</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"
+        integrity="sha512-fuxK9KrfYYxsXOm+VTYLEX3vOKymX2CDP+X1q0vsTwe9LPyJBSC3LXPu79ZNZiNCFrSzzMklmp5bU9Da/1TQEw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
